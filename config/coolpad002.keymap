@@ -1,5 +1,4 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -67,7 +66,7 @@
 
         default_layer {
             bindings = <
-&kp N1  &kp N2
+&mkp MB1  &mkp MB2
             >;
         };
 

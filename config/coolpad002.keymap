@@ -75,7 +75,7 @@
 
         FUNCTION {
             bindings = <
-&mkp MB1  &mkp MB2
+&mkp MB1  &mo 0
             >;
         };
 

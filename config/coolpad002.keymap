@@ -20,13 +20,16 @@
         compatible = "zmk,combos";
 
         tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+            bindings = <&mo 1>;
+            key-positions = <11 12 0 1>;
+            layers = <0 4>;
         };
 
         shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            bindings = <&mo 0>;
+            key-positions = <12 13 0 1>;
+            require-prior-idle-ms = <0>;
+            layers = <1>;
         };
 
         muhennkann {
@@ -70,13 +73,13 @@
 
         default_layer {
             bindings = <
-&mkp MB1  &mkp MB2
+&mkp MB1  &mo 1
             >;
         };
 
         FUNCTION {
             bindings = <
-&mkp MB1  &mkp MB2
+&mkp MB1  &mo 4
             >;
         };
 

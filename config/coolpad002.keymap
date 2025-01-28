@@ -1,5 +1,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+
+// #define ZMK_POINTING_DEFAULT_MOVE_VAL 800 
+// #define ZMK_POINTING_DEFAULT_SCRL_VAL 120
+
 #include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 4

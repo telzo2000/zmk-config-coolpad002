@@ -72,16 +72,15 @@
 
         default_layer {
             bindings = <
-&mkp MB1  &mkp MB2  &kp N1
+&mkp MB1  &mkp MB2  &lt 1 A
 &kp N2    &kp N3    &kp N4
             >;
         };
 
         FUNCTION {
             bindings = <
-&mkp MB1  &mkp MB2  &kp N1
-&kp N2    &kp N3    &kp N4
-
+&kp A   &mkp MB2  &trans
+&kp N2  &kp N3    &kp N4
             >;
         };
 
@@ -89,7 +88,6 @@
             bindings = <
 &mkp MB1  &mkp MB2  &kp N1
 &kp N2    &kp N3    &kp N4
-
             >;
         };
 
@@ -97,7 +95,6 @@
             bindings = <
 &mkp MB1  &mkp MB2  &kp N1
 &kp N2    &kp N3    &kp N4
-
             >;
         };
 
@@ -105,7 +102,6 @@
             bindings = <
 &mkp MB1  &mkp MB2  &kp N1
 &kp N2    &kp N3    &kp N4
-
             >;
         };
 
@@ -113,7 +109,6 @@
             bindings = <
 &mkp MB1  &mkp MB2  &kp N1
 &kp N2    &kp N3    &kp N4
-
             >;
         };
 
@@ -121,7 +116,6 @@
             bindings = <
 &mkp MB1  &mkp MB2  &kp N1
 &kp N2    &kp N3    &kp N4
-
             >;
         };
     };

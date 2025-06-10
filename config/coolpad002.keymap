@@ -72,43 +72,56 @@
 
         default_layer {
             bindings = <
-&mkp MB1  &mkp MB2
+&mkp MB1  &mkp MB2  &kp N1
+&kp N2    &kp N3    &kp N4
             >;
         };
 
         FUNCTION {
             bindings = <
-&mkp MB1  &mkp MB2
+&mkp MB1  &mkp MB2  &kp N1
+&kp N2    &kp N3    &kp N4
+
             >;
         };
 
         NUM {
             bindings = <
-&mkp MB1  &mkp MB2
+&mkp MB1  &mkp MB2  &kp N1
+&kp N2    &kp N3    &kp N4
+
             >;
         };
 
         ARROW {
             bindings = <
-&mkp MB1  &mkp MB2
+&mkp MB1  &mkp MB2  &kp N1
+&kp N2    &kp N3    &kp N4
+
             >;
         };
 
         MOUSE {
             bindings = <
-&mkp MB1  &mkp MB2
+&mkp MB1  &mkp MB2  &kp N1
+&kp N2    &kp N3    &kp N4
+
             >;
         };
 
         SCROLL {
             bindings = <
-&mkp MB1  &mkp MB2
+&mkp MB1  &mkp MB2  &kp N1
+&kp N2    &kp N3    &kp N4
+
             >;
         };
 
         layer_6 {
             bindings = <
-&mkp MB1  &mkp MB2
+&mkp MB1  &mkp MB2  &kp N1
+&kp N2    &kp N3    &kp N4
+
             >;
         };
     };
